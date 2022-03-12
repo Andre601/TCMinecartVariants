@@ -57,6 +57,8 @@ TCMinecartVariants can be added to ItemsAdder, but with certain limitations.
 To add it to ItemsAdder, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases], extract the `assets` folder from it and drag and drop it into `plugins/ItemsAdder/data/resource_pack/`.  
 After that run `/iazip` to refresh the Resource pack. Depending on your hosting solution will you need to update the download URL. Refer to the [ItemsAdder Wiki][ia-wiki] for further details.
 
+Note that this resource does NOT add a way for you to obtain the items through the `/ia` GUI, `/iagive` or `/iaget`. You have to use the [vanilla `/give` command](#command) to obtain the items you want to use.
+
 ### Other Custom Item plugins
 
 Unfortunately can I not give instructions on other plugins that add custom items through automatically generated resource packs.  
