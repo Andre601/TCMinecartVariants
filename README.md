@@ -68,9 +68,9 @@ Please refer to their respective documentation for instructions. All the importa
 
 ### Items
 
-The following models are provided with their respective CustomModelData value or Train_Carts name:
+The following models are provided with their respective CustomModelData value or TrainCarts name:
 
-| Minecart Model                | CustomModelData | Train_Carts name              |
+| Minecart Model                | CustomModelData | TrainCarts name               |
 | ----------------------------- | --------------- | ----------------------------- |
 | `coal_minecart`               | `30000`         | `coal_minecart`               |
 | `copper_minecart`             | `30001`         | `copper_minecart`             |
