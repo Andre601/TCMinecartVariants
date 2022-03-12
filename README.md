@@ -1,6 +1,6 @@
 <!-- Plugin pages -->
-[traincarts]: 
-[itemsadder]: 
+[traincarts]: https://www.spigotmc.org/resources/39592/
+[itemsadder]: https://www.spigotmc.org/resources/73355/
 
 <!-- GitHub Links -->
 [releases]: https://github.com/Andre601/TCMinecartVariants/releases
