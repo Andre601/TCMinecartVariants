@@ -1,0 +1,104 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 30000
+      },
+      "model": "tcminecartvariants:minecarts/coal_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30001
+      },
+      "model": "tcminecartvariants:minecarts/copper_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30002
+      },
+      "model": "tcminecartvariants:minecarts/diamond_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30003
+      },
+      "model": "tcminecartvariants:minecarts/emerald_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30004
+      },
+      "model": "tcminecartvariants:minecarts/gold_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30005
+      },
+      "model": "tcminecartvariants:minecarts/iron_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30006
+      },
+      "model": "tcminecartvariants:minecarts/lapis_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30007
+      },
+      "model": "tcminecartvariants:minecarts/redstone_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30020
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_coal_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30021
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_copper_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30022
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_diamond_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30023
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_emerald_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30024
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_gold_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30025
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_iron_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30026
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_lapis_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30027
+      },
+      "model": "tcminecartvariants:minecarts/deepslate_redstone_minecart"
+    }
+  ]
+}

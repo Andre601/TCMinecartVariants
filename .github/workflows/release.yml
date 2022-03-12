@@ -1,0 +1,25 @@
+name: Publish zip to release
+
+on:
+  release:
+    types:
+    - published
+    branches:
+    - main
+
+jobs:
+  createZip:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2.3.4
+      with:
+        ref: main
+    - name: Zip files
+      working-directory: './resource_pack'
+      run: 'zip -r TCMinecartVariants-${{ github.event.release.tag_name }}.zip assets/ tcminecartvariants.yml TCMinecartVariants.zip'
+    - name: Upload zip to release
+      uses: AButler/upload-release-assets@v2.0
+      with:
+        files: 'resource_pack/TCMinecartVariants-${{ github.event.release.tag_name }}.zip'
+        repo-token: '${{ secrets.GITHUB_TOKEN }}'

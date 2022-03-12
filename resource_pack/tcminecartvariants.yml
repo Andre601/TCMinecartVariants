@@ -1,0 +1,512 @@
+coal_minecart:
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30000
+      entityType: MINECART
+      flipped: true
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  savedName: coal_minecart
+copper_minecart:
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30001
+      entityType: MINECART
+      flipped: true
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  savedName: copper_minecart
+diamond_minecart:
+  savedName: diamond_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30002
+      entityType: MINECART
+      flipped: false
+emerald_minecart:
+  savedName: emerald_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30003
+      entityType: MINECART
+      flipped: false
+gold_minecart:
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posX: 0.0
+          posY: 0.3
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30024
+      entityType: MINECART
+      flipped: true
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  savedName: gold_minecart
+iron_minecart:
+  savedName: iron_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30005
+      entityType: MINECART
+      flipped: false
+lapis_minecart:
+  savedName: lapis_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30006
+      entityType: MINECART
+      flipped: false
+redstone_minecart:
+  savedName: redstone_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30007
+      entityType: MINECART
+      flipped: false
+deepslate_redstone_minecart:
+  savedName: deepslate_redstone_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30027
+      entityType: MINECART
+      flipped: false
+deepslate_lapis_minecart:
+  savedName: deepslate_lapis_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30026
+      entityType: MINECART
+      flipped: false
+deepslate_iron_minecart:
+  savedName: deepslate_iron_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30025
+      entityType: MINECART
+      flipped: false
+deepslate_gold_minecart:
+  savedName: deepslate_gold_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30024
+      entityType: MINECART
+      flipped: false
+deepslate_emerald_minecart:
+  savedName: deepslate_emerald_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30023
+      entityType: MINECART
+      flipped: false
+deepslate_diamond_minecart:
+  savedName: deepslate_diamond_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30022
+      entityType: MINECART
+      flipped: false
+deepslate_copper_minecart:
+  savedName: deepslate_copper_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30021
+      entityType: MINECART
+      flipped: false
+deepslate_coal_minecart:
+  savedName: deepslate_coal_minecart
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30020
+      entityType: MINECART
+      flipped: false
