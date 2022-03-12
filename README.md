@@ -24,7 +24,7 @@ The added models are customized Iron Horse Armor, using the `CustomModelData` at
 The downloadable zip from the Releases page contains the following files and folders:
 
 - `TCMinecartVariants.zip` - Standalone Resource pack made for Minecraft 1.18.x (Older versions may work but require changes to the `pack.mcmeta`'s `pack_format`).
-- `tcminecartvariants.yml` - YAML file for the plugin [Train_Carts][traincarts] which adds saved trains to use ([Instructions](#train_carts)).
+- `tcminecartvariants.yml` - YAML file for the plugin [TrainCarts][traincarts] which adds saved trains to use ([Instructions](#train_carts)).
 - `assets/` - Folder containing the files of the resource. Can be added to plugins such as [ItemsAdder][itemsadder] ([Instructions](#itemsadder)).
 
 ## Installation
@@ -100,7 +100,7 @@ To get the `deepslate_diamond_minecart` would the command be `/give @p iron_hors
 
 ### Train_carts
 
-TCMinecartVariants provides a `tcminecartvariants.yml` file, which contains saved trains for [Train_Carts][traincarts] to use.
+TCMinecartVariants provides a `tcminecartvariants.yml` file, which contains saved trains for [TrainCarts][traincarts] to use.
 
 To obtain such a train, make sure to have moved the `tcminecartvariants.yml` file into `plugins/Train_Carts/savedTrainModules/`. You may need to reload the plugin for it to be added properly.  
 After this can you use `/train chest give @p --train <name>` to obtain a Chest to spawn the train. Make sure to replace `<name>` with one of the [above listed names](#items).
