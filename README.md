@@ -62,7 +62,7 @@ Note that this resource does NOT add a way for you to obtain the items through t
 ### Other Custom Item plugins
 
 Unfortunately can I not give instructions on other plugins that add custom items through automatically generated resource packs.  
-Please refer to their respective documentation for instructions. All the important files are found in `assets/minecraft/models/item/` and `assets/tcminecartvariants/models/minecart/` respectively.
+Please refer to their respective documentation for instructions. All the important files are found in `assets/minecraft/models/item/` and `assets/tcminecartvariants/models/minecarts/` respectively.
 
 ## Getting the items
 
