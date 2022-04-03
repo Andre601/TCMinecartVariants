@@ -11,12 +11,12 @@
 
 # TCMinecartVariants
 
-TCMinecartVariants is a collection of JSON model files for Minecraft: Java Edition and was made as a way to add custom models to the plugin [Train_Carts][traincarts].  
-The goal is to add new Minecart models different ores loaded.
+TCMinecartVariants is a collection of JSON model files for Minecraft: Java Edition and was made as a way to add custom models to the plugin [TrainCarts][traincarts].  
+The goal is to add new Minecart models with different ores loaded.
 
 ## Disclaimer
 
-This resource does NOT add new Minecart models to the game. This is NOT a mod.  
+This resource does NOT add new Minecart models to the game. This is NOT a mod nor a plugin.  
 The added models are customized Iron Horse Armor, using the `CustomModelData` attribute of Minecraft.
 
 ## Contents
@@ -39,9 +39,9 @@ Because of this should you be careful whenever you add the resources to another 
 ### Standalone Resource pack
 
 This resource ships with its own Standalone resource pack.  
-To add it to your server, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases], extract the `TCMinecartVariants.zip` file from it and upload it somewhere that allows direct downloads. Personal recommendation is https://mc-packs.net, which not only provides a way to host the resource pack, but also gives a SHA1 code to add to your server's `server.properties` file.
+To add it to your server, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases], extract the `TCMinecartVariants.zip` file from it and upload it somewhere that allows direct downloads of the resource pack. A personal recommendation is https://mc-packs.net, which not only provides a way to host the resource pack, but also gives a SHA1 code to add to your server's `server.properties` file.
 
-Once you uploaded the resource pack, copy the download URL and add it to your `server.properties`' `resource-pack` option. It's recommendet to also add a valid SHA1 code to the `resource-pack-sha1` option.
+Once you uploaded the resource pack, copy the download URL and add it to the `resource-pack` option in your `server.properties` file. It's recommendet to also add a valid SHA1 code to the `resource-pack-sha1` option.
 
 ### Include into own resource pack
 
@@ -95,7 +95,7 @@ The following models are provided with their respective CustomModelData value or
 Use `/give @p iron_horse_armor{CustomModelData:<model_data>} 1` to give yourself the right item.  
 Make sure to replace `<model_data>` with one of the [above listed](#items) numbers.
 
-*The command syntax may vary depending on the version you use and wether the command gets overriden by a plugin such as EssentialsX.*
+*The command may not work the same way on older versions. It could also work differently if a plugin such as EssentialsX overrides it. You can always prefix `give` with `minecraft:` to force the usage of the vanilla command (`/minecraft:give ...`).*
 
 **Example:**  
 To get the `deepslate_diamond_minecart` would the command be `/give @p iron_horse_armor{CustomModelData:30022} 1`
