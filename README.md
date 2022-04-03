@@ -95,7 +95,7 @@ The following models are provided with their respective CustomModelData value or
 Use `/give @p iron_horse_armor{CustomModelData:<model_data>} 1` to give yourself the right item.  
 Make sure to replace `<model_data>` with one of the [above listed](#items) numbers.
 
-*The command syntax may vary depending on the version you use.*
+*The command syntax may vary depending on the version you use and wether the command gets overriden by a plugin such as EssentialsX.*
 
 **Example:**  
 To get the `deepslate_diamond_minecart` would the command be `/give @p iron_horse_armor{CustomModelData:30022} 1`
