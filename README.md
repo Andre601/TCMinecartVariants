@@ -39,7 +39,7 @@ Because of this should you be careful whenever you add the resources to another 
 ### Standalone Resource pack
 
 This resource ships with its own Standalone resource pack.  
-To add it to your server, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases] and upload it somewhere that allows direct downloads. Personal recommendation is https://mc-packs.net, which not only provides a way to host the resource pack, but also gives a SHA1 code to add to your server's `server.properties` file.
+To add it to your server, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases], extract the `TCMinecartVariants.zip` file from it and upload it somewhere that allows direct downloads. Personal recommendation is https://mc-packs.net, which not only provides a way to host the resource pack, but also gives a SHA1 code to add to your server's `server.properties` file.
 
 Once you uploaded the resource pack, copy the download URL and add it to your `server.properties`' `resource-pack` option. It's recommendet to also add a valid SHA1 code to the `resource-pack-sha1` option.
 
