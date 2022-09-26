@@ -11,6 +11,13 @@
 
 # TCMinecartVariants
 
+<a href="https://discord.gg/6dazXp6" target="_blank">
+  <img alt="discord" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/minimal/social/discord-singular_vector.svg" height="64" align="right">
+</a>
+<a href="https://app.revolt.chat/invite/74TpERXA" target="_blank">
+  <img alt="revolt" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/minimal/social/revolt-singular_vector.svg" height="64" align="right">
+</a>
+
 TCMinecartVariants is a collection of JSON model files for Minecraft: Java Edition and was made as a way to add custom models to the plugin [TrainCarts][traincarts].  
 The goal is to add new Minecart models with different ores loaded.
 
