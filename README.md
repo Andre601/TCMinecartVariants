@@ -8,6 +8,8 @@
 
 <!-- Other Links -->
 [ia-wiki]: https://itemsadder.devs.beer
+[mc-packs]: https://mc-packs.net
+[jsonmerger]: https://itemsadder.github.io/jsonmerger/
 
 # TCMinecartVariants
 
@@ -24,13 +26,13 @@ The goal is to add new Minecart models with different ores loaded.
 ## Disclaimer
 
 This resource does NOT add new Minecart models to the game. This is NOT a mod nor a plugin.  
-The added models are customized Iron Horse Armor, using the `CustomModelData` attribute of Minecraft.
+The added models are customized Iron Horse Armor, using the `CustomModelData` attribute of Minecraft. This means it only supports MC versions with CustomModelData support.
 
 ## Contents
 
 The downloadable zip from the Releases page contains the following files and folders:
 
-- `TCMinecartVariants.zip` - Standalone Resource pack made for Minecraft 1.18.x (Older versions may work but require changes to the `pack.mcmeta`'s `pack_format`).
+- `TCMinecartVariants.zip` - Standalone Resource pack made for Minecraft 1.18.x (Older/Newer versions may work but require changes to the `pack.mcmeta`'s `pack_format`).
 - `tcminecartvariants.yml` - YAML file for the plugin [TrainCarts][traincarts] which adds saved trains to use ([Instructions](#traincarts)).
 - `assets/` - Folder containing the files of the resource. Can be added to plugins such as [ItemsAdder][itemsadder] ([Instructions](#itemsadder)).
 
@@ -43,28 +45,63 @@ The resource can be installed in different ways, depending on different conditio
 Something important to note here is, that the models use the `iron_horse_armor` as their base-item with `CustomModelData` values to change the used model for the item.  
 Because of this should you be careful whenever you add the resources to another resource pack (or a plugin) that already uses the aforementioned item.
 
+You can use the [JSONMerger tool][jsonmerger] provided by LoneDev to merge two JSON files into one.
+
 ### Standalone Resource pack
 
-This resource ships with its own Standalone resource pack.  
-To add it to your server, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases], extract the `TCMinecartVariants.zip` file from it and upload it somewhere that allows direct downloads of the resource pack. A personal recommendation is https://mc-packs.net, which not only provides a way to host the resource pack, but also gives a SHA1 code to add to your server's `server.properties` file.
+> Remember to read [Before you start...](#before-you-start) first.
 
-Once you uploaded the resource pack, copy the download URL and add it to the `resource-pack` option in your `server.properties` file. It's recommendet to also add a valid SHA1 code to the `resource-pack-sha1` option.
+- Download `TCMinecartVariants-<version>.zip` from the [Release page][releases].
+- Extract the `TCMinecartVariants.zip` file from it.
+- Upload the zip file to a hosting platform such as [mc-packs.net][mc-packs].
+- Copy the direct download URL. Redirects do not work. The URL needs to result in the zip being downloaded.
+- Paste the URL as the `resource-pack` value in your `server.properties` file.
+- (Optional but recommended) Set the `resource-pack-sha1` to a valid SHA1 of your resource pack. Sites such as mc-packs provide one.
+- Restart the server.
 
 ### Include into own resource pack
 
-To add the models into your own resource pack, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases], extract the `assets` folder from it and add it to your resource pack's `assets` directory.
+> Remember to read [Before you start...](#before-you-start) first.
 
-Please be aware of the things mentioned in [`Before you start...`](#before-you-start) before you attempt to add it to your stuff.
-Also, give proper credit to me and follow the [MIT license][license]
+- Download `TCMinecartVariants-<version>.zip` from the [Release page][releases].
+- Extract the `assets/` folder from it.
+- Add the folder to your resource pack's own `assets/` folder.
+  - There should now be a path called `assets/tcminecartvariants/models/minecarts/`
+- Update your zip file.
+
+> **Note**  
+> Always give proper credit to me and this repository. Read the [license file][license] for details.
 
 ### ItemsAdder
 
+> Remember to read [Before you start...](#before-you-start) first.
+
 TCMinecartVariants can be added to ItemsAdder, but with certain limitations.
 
-To add it to ItemsAdder, download the `TCMinecartVariants-<version>.zip` from the [Releases page][releases], extract the `assets` folder from it and drag and drop it into `plugins/ItemsAdder/data/resource_pack/`.  
-After that run `/iazip` to refresh the Resource pack. Depending on your hosting solution will you need to update the download URL. Refer to the [ItemsAdder Wiki][ia-wiki] for further details.
+#### Version 3.2.5 and older
 
-Note that this resource does NOT add a way for you to obtain the items through the `/ia` GUI, `/iagive` or `/iaget`. You have to use the [vanilla `/give` command](#command) to obtain the items you want to use.
+- Download `TCMinecartVariants-<version>.zip` from the [Release page][releases].
+- Extract the `assets/` folder from it.
+- Move the folder into `plugins/ItemsAdder/data/resource_pack/`.
+- Run `/iazip` and update your hosted resource pack. Refer to the [ItemsAdder Wiki][ia-wiki] for details.
+
+> **Note**  
+> This resource pack does not support getting Items through `/iaget`, `/iagive` or the `/ia` GUI. You have to use the vanilla `/give` command to obtain the item.  
+> See the [command](#command) section for instructions.
+
+#### Version 3.3.0 and newer
+
+- Download `TCMinecartVariants-<version>.zip` from the [Release page][releases].
+- Extract the `assets/` folder from it.
+- Create a folder called `tcminecartvariants/` in `/plugins/ItemsAdder/contents/`
+- Create a `resourcepack/` folder inside it.
+- Drag and Drop the contents of `assets/` into the `resourcepack/` folder.
+  - There should now be a path called `plugins/ItemsAdder/contents/tcminecartvariants/resourcepack/tcminecartvariants/models/minecarts/` and one called `plugins/ItemsAdder/contents/tcminecartvariants/resourcepack/minecraft/models/item/`
+- Run `/iazip` and update your hosted resource pack. Refer to the [ItemsAdder Wiki][ia-wiki] for details.
+
+> **Note**  
+> This resource pack does not support getting Items through `/iaget`, `/iagive` or the `/ia` GUI. You have to use the vanilla `/give` command to obtain the item.  
+> See the [command](#command) section for instructions.
 
 ### Other Custom Item plugins
 
