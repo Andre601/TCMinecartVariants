@@ -99,6 +99,12 @@
         "custom_model_data": 30027
       },
       "model": "tcminecartvariants:minecarts/deepslate_redstone_minecart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30040
+      },
+      "model": "tcminecartvariants:minecarts/minecart"
     }
   ]
 }

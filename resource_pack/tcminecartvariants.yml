@@ -510,3 +510,35 @@ deepslate_coal_minecart:
             custom-model-data: 30020
       entityType: MINECART
       flipped: false
+minecart:
+  carts:
+    0:
+      model:
+        type: ITEM
+        entityType: MINECART
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position:
+          transform: HEAD
+          posY: 0.3
+          posX: 0.0
+          posZ: 0.0
+          rotX: 0.0
+          rotY: 0.0
+          rotZ: 0.0
+        sitting: false
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 2865
+          type: IRON_HORSE_ARMOR
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            custom-model-data: 30040
+      entityType: MINECART
+      flipped: false
+  claims:
+    - Andre_601 286f8d0c-b571-4720-b7ab-f2929cb38120
+  savedName: minecart

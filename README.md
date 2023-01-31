@@ -132,6 +132,7 @@ The following models are provided with their respective CustomModelData value or
 | `deepslate_iron_minecart`     | `30025`         | `deepslate_iron_minecart`     |
 | `deepslate_lapis_minecart`    | `30026`         | `deepslate_lapis_minecart`    |
 | `deepslate_redstone_minecart` | `30027`         | `deepslate_redstone_minecart` |
+| `minecart`                    | `30040`         | `minecart`                    |
 
 
 ### Command
